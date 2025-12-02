@@ -83,3 +83,71 @@
     - Кликаем на кнопку create invite
   expected-result: |
     Пользователь должен увидеть, что отправлено приглашение
+
+- summary: |
+    Проверка возможности соревноваться с ботом
+  requirement: |
+    При клике на кнопку create battle должен открываться интерфейс игры
+  prerequisites:
+    Открыто модальное окно create a battle
+  test-data: |
+    В Game Type выбрано with a bot
+  steps:
+    - Кликаем на кнопку create battle
+  expected-result: |
+    Пользователь должен увидеть, что открылся интерфейс игры
+
+- summary: |
+    Проверка возможности выбора уровня
+  requirement: |
+    При клике на звездочку уровня должны меняться кол-во задач
+  prerequisites:
+    Открыто модальное окно create a battle
+  test-data: |
+    Level - 2 звезды
+  steps:
+    - Кликаем на 2 звезды
+  expected-result: |
+    Пользователь должен увидеть, что поменялось кол-во задач
+
+- summary: |
+    Проверка возможности выбора задачи
+  requirement: |
+    При выборе задачи открывается выбранная задача
+  prerequisites:
+    Открыто модальное окно create a battle
+  test-data: |
+    Task balance
+  steps:
+    - Выбираем task balance
+    - Кликаем на кнопку create battle
+  expected-result: |
+    В интерфейсе игры открылась задача balance
+
+- summary: |
+    Проверка возможности фильтровать задачи по темам
+  requirement: |
+    При выборе определенного tags меняется кол-во задач
+  prerequisites:
+    Открыто модальное окно create a battle
+  test-data: |
+    Tags collection
+  steps:
+    - Выбираем уровень с 2 звездочками
+    - Выбираем tags collection
+  expected-result: |
+    Поменялось кол-во задач
+
+- summary: |
+    Проверка возможности просматривать Rules & Details
+  requirement: |
+    При клике Rules & Details открывается текст под Rules & Details
+  prerequisites:
+    Открыта главная страница
+  test-data: |
+    кнопка Rules & Details
+  steps:
+    - Кликаем Rules & Details
+  expected-result: |
+    Открылся скрытый текст под Rules & Details
+    
