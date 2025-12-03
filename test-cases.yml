@@ -217,3 +217,42 @@
     - Кликаем по кнопку Run
   expected-result: |
     Запустились тесты и высветились результаты
+
+- summary: |
+    Проверка загрузки интерфейса "Holopins" в user profile
+  requirement: |
+    При клике на ссылку Holopin board должен загружаться интерфейс Holopins
+  prerequisites:
+    Открыт user profile
+  test-data: |
+    Ссылка Holopin board
+  steps:
+    - Кликаем на ссылку Holopin board
+  expected-result: |
+    Загрузился Holopin
+
+- summary: |
+    Проверка появления выпадающего меню с info при наведении на user в Hall of Fame
+  requirement: |
+    При наведении на user в Hall of Fame должно появляться выпадающее меню с info
+  prerequisites:
+    Открыт Hall of Fame
+  test-data: |
+    player
+  steps:
+    - Наводим мышкой на player
+  expected-result: |
+    Появилось выпадающее меню с info
+
+- summary: |
+    Проверка выбора друга в выпадающем меню
+  requirement: |
+    При выборе друга в выпадающем меню должен отображаться список друзей
+  prerequisites:
+    Открыто модальное окно create a battle
+  test-data: |
+    Choose opponent
+  steps:
+    - Клик по выпадающему меню в Choose opponent
+  expected-result: |
+    Появилось выпадающее меню со списком друзей
