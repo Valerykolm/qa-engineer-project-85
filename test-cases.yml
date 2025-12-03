@@ -256,3 +256,16 @@
     - Клик по выпадающему меню в Choose opponent
   expected-result: |
     Появилось выпадающее меню со списком друзей
+
+- summary: |
+    Проверка корректного отображения информации по турнирам
+  requirement: |
+    Ссылки в календаре +6 more должны отображаться полностью
+  prerequisites:
+    Открыто My Tournaments
+  test-data: |
+    Calendar
+  steps:
+    - Навести мышкой на +6 more
+  expected-result: |
+    Ссылки в календаре +6 more отображены полностью
