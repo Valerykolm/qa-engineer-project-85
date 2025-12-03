@@ -63,6 +63,18 @@
     Проверка определяет ли система победителя по результатам проверки кода
   status: pass
 
+- summary: |
+    Проверка загрузки интерфейса "Holopins" в user profile
+  status: fail
+
+- summary: |
+    Проверка появления выпадающего меню с info при наведении на user в Hall of Fame
+  status: fail
+
+- summary: |
+    Проверка выбора друга в выпадающем меню
+  status: fail
+
 
 
   
