@@ -64,10 +64,6 @@
   status: pass
 
 - summary: |
-    Проверка загрузки интерфейса "Holopins" в user profile
-  status: fail
-
-- summary: |
     Проверка появления выпадающего меню с info при наведении на user в Hall of Fame
   status: fail
 
