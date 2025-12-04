@@ -219,19 +219,6 @@
     Запустились тесты и высветились результаты
 
 - summary: |
-    Проверка загрузки интерфейса "Holopins" в user profile
-  requirement: |
-    При клике на ссылку Holopin board должен загружаться интерфейс Holopins
-  prerequisites:
-    Открыт user profile
-  test-data: |
-    Ссылка Holopin board
-  steps:
-    - Кликаем на ссылку Holopin board
-  expected-result: |
-    Загрузился Holopin
-
-- summary: |
     Проверка появления выпадающего меню с info при наведении на user в Hall of Fame
   requirement: |
     При наведении на user в Hall of Fame должно появляться выпадающее меню с info
