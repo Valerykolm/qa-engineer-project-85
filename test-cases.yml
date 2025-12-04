@@ -269,3 +269,29 @@
     - Навести мышкой на +6 more
   expected-result: |
     Ссылки в календаре +6 more отображены полностью
+
+- summary: |
+    Проверка корректного отображения элементов интерфейса на странице Clans
+  requirement: |
+    Кнопка Show не должна выходить за границу таблицы
+  prerequisites:
+    Открыт My Profile
+  test-data: |
+    ссылка clan list
+  steps:
+    - Клик по ссылке clan list
+  expected-result: |
+    Кнопка Show не выходит за границу таблицы
+
+- summary: |
+    Проверка корректной работы ссылок В Settings
+  requirement: |
+    Ссылка на GitHub должна быть рабочей
+  prerequisites:
+    Открыт Settings
+  test-data: |
+    ссылка GitHub
+  steps:
+    - Клик по ссылке GitHub
+  expected-result: |
+    При клике по ссылке GitHub переходим на страницу GitHub
