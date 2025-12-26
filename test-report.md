@@ -1,6 +1,6 @@
 ## Test Report
 
-**Project:** https://codebattle.hexlet.io/
+**Project:** https://codebattle.hexlet.io/  
 **Scope:** Functional and UI testing of web application  
 **Type of testing:** Manual testing
 
