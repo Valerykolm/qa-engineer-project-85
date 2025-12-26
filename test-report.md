@@ -11,11 +11,11 @@
 - Cross-browser behavior (Chrome, Firefox)
 
 ### Test artifacts
-- requirements
-- Test cases
-- Testing report
-- Issues
-- Reopened issues
+- [requirements](https://github.com/Valerykolm/qa-engineer-project-85/blob/main/requirements.yml)
+- [Test cases](https://github.com/Valerykolm/qa-engineer-project-85/blob/main/test-cases.yml)
+- [Testing report](https://github.com/Valerykolm/qa-engineer-project-85/blob/main/testing-report.yml)
+- (Issues)[https://github.com/Valerykolm/qa-engineer-project-85/blob/main/issues.yml]
+- (Reopened issues)[https://github.com/Valerykolm/qa-engineer-project-85/blob/main/reopened_issues.yml]
 
 ### Results
 - test cases executed: 21
